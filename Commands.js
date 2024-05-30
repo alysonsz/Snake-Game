@@ -60,6 +60,3 @@ setInterval(() => { step(); show(); },  0 + vel(0))
 
 
 setInterval(() => { step(); show(); },  0 + vel(Snake.next(State).increase))
-
-/*A Função next foi usada mesmo sem estar definida aqui, isso mostra que ela possui o princípio de closure,
-pois foi executada mesmo estando fora do seu escopo léxico*/
